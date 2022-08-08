@@ -94,15 +94,24 @@ $error-dark        : "";
 /// @name _ol.nerdfont.scss
 // /!\ still being developed
 
-.icon i {
+@font-face {
+  font-family: "NF icons";
+  src: url('@/assets/NF-Mono.ttf') format('truetype');
+}
+
+.icon i[class^="nf-"] {
   all: unset;
   display: inline-flex;
   font-family: "NF icons";
-
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   @include animate;
 }
-
-
 
 
 
