@@ -1,0 +1,187 @@
+///==========================================
+/// @name guidelines.md
+// /!\ still being developed
+
+/* 
+  * all variables will have dash as separation
+  * in variable lists, light and small will be at the top
+
+*/
+
+
+
+///==========================================
+/// @name _ol.vars.scss
+// /!\ still being developed
+
+
+// colors
+$primary-light: "";
+$primary      : "";
+$primary-dark : "";
+
+$secondary-light: "";
+$secondary      : "";
+$secondary-dark : "";
+
+
+// MDL shadows
+$shadow-none        : inset 0 0 0 rgba(0,0,0,0),          inset 0 0 0 rgba(0,0,0,0),          0 0 0 rgba(0,0,0,0),          0 0 0 rgba(0,0,0,0);
+
+$shadow-border      : inset 0 0 0 rgba(10,10,10,.1),      0 0 0 0 rgba(10,10,10,.1),          0 2px 3px rgba(10,10,10,.1),  0 0 0 1px rgba(10,10,10,.1);
+$shadow-1           : inset 0 0 0 rgba(0,0,0,0.12),       inset 0 0 0 rgba(0,0,0,0.24),       0 1px 3px rgba(0,0,0,0.12),   0 1px 2px rgba(0,0,0,0.24);
+$shadow-2           : inset 0 0 0 rgba(0,0,0,0.16),       inset 0 0 0 rgba(0,0,0,0.23),       0 3px 6px rgba(0,0,0,0.16),   0 3px 6px rgba(0,0,0,0.23);
+$shadow-3           : inset 0 0 0 rgba(0,0,0,0.19),       inset 0 0 0 rgba(0,0,0,0.23),       0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+$shadow-4           : inset 0 0 0 rgba(0,0,0,0.25),       inset 0 0 0 rgba(0,0,0,0.22),       0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+$shadow-5           : inset 0 0 0 rgba(0,0,0,0.30),       inset 0 0 0 rgba(0,0,0,0.22),       0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+$inset-shadow-border: inset 0 2px 3px rgba(10,10,10,.1),  inset 0 0 0 1px rgba(10,10,10,.1),  0 0 0 rgba(10,10,10,.1),      0 0 0 0 rgba(10,10,10,.1);
+$inset-shadow-1     : inset 0 1px 3px rgba(0,0,0,0.12),   inset 0 1px 2px rgba(0,0,0,0.24),   0 0 0 rgba(0,0,0,0.12),       0 0 0 rgba(0,0,0,0.24);
+$inset-shadow-2     : inset 0 3px 6px rgba(0,0,0,0.16),   inset 0 3px 6px rgba(0,0,0,0.23),   0 0 0 rgba(0,0,0,0.16),       0 0 0 rgba(0,0,0,0.23);
+$inset-shadow-3     : inset 0 10px 20px rgba(0,0,0,0.19), inset 0 6px 6px rgba(0,0,0,0.23),   0 0 0 rgba(0,0,0,0.19),       0 0 0 rgba(0,0,0,0.23);
+$inset-shadow-4     : inset 0 14px 28px rgba(0,0,0,0.25), inset 0 10px 10px rgba(0,0,0,0.22), 0 0 0 rgba(0,0,0,0.25),       0 0 0 rgba(0,0,0,0.22);
+$inset-shadow-5     : inset 0 19px 38px rgba(0,0,0,0.30), inset 0 15px 12px rgba(0,0,0,0.22), 0 0 0 rgba(0,0,0,0.30),       0 0 0 rgba(0,0,0,0.22);
+
+
+// corners
+$radius-small: 0.25rem;
+$radius      : 1rem;
+$radius-big  : 3rem;
+
+
+
+///==========================================
+/// @name _ol.generated.scss
+// /!\ still being developed
+
+// setup vars
+$primary-lightest  : "";
+$primary-darkest   : "";
+
+$secondary-lightest: "";
+$secondary-darkest : "";
+
+$neutral-light     : "";
+$neutral           : "";
+$neutral-dark      : "";
+
+$success-light     : "";
+$success           : "";
+$success-dark      : "";
+
+$info-light        : "";
+$info              : "";
+$info-dark         : "";
+
+$warning-light     : "";
+$warning           : "";
+$warning-dark      : "";
+
+$error-light       : "";
+$error             : "";
+$error-dark        : "";
+
+// create helper classes
+// ._bg-$color
+// ._text-$color
+// ._button-color
+//      ._button-clear /!\
+// ._shadow-$num
+// ._inset-shadow-$num
+
+
+///==========================================
+/// @name _ol.nerdfont.scss
+// /!\ still being developed
+
+.icon i {
+  all: unset;
+  display: inline-flex;
+  font-family: "NF icons";
+
+  @include animate;
+}
+
+
+
+
+
+///==========================================
+/// @name _ol.mixins.scss
+// /!\ still being developed
+
+// animate anything
+@mixin animate-slow {
+  transition: all 0.45s ease-in-out;
+}
+@mixin animate {
+  transition: all 0.25s ease-in-out;
+}
+@mixin animate-fast {
+  transition: all 0.15s ease-in-out;
+}
+
+
+// breakpoints
+$breakpoints: (
+  'small'       : ('min': 1px,    'max': 600px),
+  'medium'      : ('min': 601px,  'max': 999px),
+  'large'       : ('min': 1200px, 'max': 9999px),
+  'medium-up'   : ('min': 601px,  'max': 9999px),
+  'small-medium': ('min': 1px,    'max': 999px)
+) !default;
+
+/// Mixin to manage responsive breakpoints
+/// @author Hugo Giraudel
+/// @param {String} $breakpoint - Breakpoint name
+/// @require $breakpoints
+@mixin respond-to($breakpoint) {
+  // If the key exists in the map
+  @if map-has-key($breakpoints, $breakpoint) {
+    // Prints a media query based on the value
+    @media (min-width: map-get(map-get($breakpoints, $breakpoint), 'min')) and (max-width: map-get(map-get($breakpoints, $breakpoint), 'max')) {
+      @content;
+    }
+  }
+
+  // If the key doesn't exist in the map
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Available breakpoints are: #{map-keys($breakpoints)}.";
+  }
+}
+
+
+
+
+
+
+///==========================================
+///
+/// @name _ol.resets.scss
+// /!\ still being developed
+
+
+///==========================================
+///
+/// @name _ol.boilerplate.scss
+// /!\ still being developed
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+    
+  @media print {
+    font-family: serif;
+  }
+  
+  * {
+    box-sizing : border-box;
+  }
+}
