@@ -6,7 +6,7 @@ _Expanding upon the [ideals](https://picocss.com/#:~:text=graceful%C2%A0and%C2%A
 
 * [open-props](https://open-props.style) for quick variables
 * [open-color](https://yeun.github.io/open-color/) for nice colors and custom themes
-* [octoverrides](_octoverrides.scss) my own personal overrides to pico and open-props, with sane defaults and batteries included
+* [micro](_micro.scss) my own personal overrides to pico and open-props, with sane defaults and batteries included
   * shadows from Material Design Language
     * inset shadows
     * outset shadows
