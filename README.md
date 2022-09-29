@@ -12,6 +12,6 @@ _Expanding upon the [ideals](https://picocss.com/#:~:text=graceful%C2%A0and%C2%A
     * outset shadows
     * proper css transitions between inset and outset
   * [nerdfont icons](https://nerdfonts.com) with easy classes within `.icon i` elements - search the [cheatsheet](https://www.nerdfonts.com/cheat-sheet)!
-  * simple-to-use breakpoints mixin by [@kittyGiraudel](https://twitter.com/KittyGiraudel). see [usage here](https://css-tricks.com/snippets/sass/mixin-manage-breakpoints/)
+  * simple-to-use breakpoints mixin by [@kittyGiraudel](https://twitter.com/KittyGiraudel) (SCSS only). see [usage here](https://css-tricks.com/snippets/sass/mixin-manage-breakpoints/)
   * inverse text color finder, from [Bulma.io](https://bulma.io/documentation/) (SCSS only). ([source](https://github.com/jgthms/bulma/blob/master/sass/utilities/functions.sass))
   
