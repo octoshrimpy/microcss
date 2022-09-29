@@ -19,7 +19,7 @@ _Expanding upon the [ideals](https://picocss.com/#:~:text=graceful%C2%A0and%C2%A
   
   Just include the [main file](./micro.css) into your project with:
 ```css 
-@import 'https://octoshrimpy.github.io/microcss/micro.css;'
+@import 'https://octoshrimpy.github.io/microcss/micro.css';
 ```
 
 It will import pico, open-props, and everything else you need!
