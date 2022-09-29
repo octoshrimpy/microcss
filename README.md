@@ -16,3 +16,5 @@ _Expanding upon the [ideals](https://picocss.com/#:~:text=graceful%C2%A0and%C2%A
     * > 💡 *css-only* custom media queries [are on their way](https://www.stefanjudis.com/notes/can-we-have-custom-media-queries-please/)!
   * inverse text color finder, from [Bulma.io](https://bulma.io/documentation/) (SCSS only). ([source](https://github.com/jgthms/bulma/blob/master/sass/utilities/functions.sass))
   
+  
+  Just include the [main file](./micro.css) into your project with `@import`
