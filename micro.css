@@ -32,7 +32,7 @@
 /* nerdfont.com/cheatsheet */
 @font-face {
   font-family: "NF icons";
-  src: url('https://octoshrimpy.github.io/microcss/NF-Mono.ttf') format('truetype');
+  src: url('./NF-Mono.ttf') format('truetype');
 }
 
 
