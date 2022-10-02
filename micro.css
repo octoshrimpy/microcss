@@ -30,11 +30,7 @@
 /* Nerd Font */
 /* nerdfont.com */
 /* nerdfont.com/cheatsheet */
-@font-face {
-  font-family: "NF icons";
-  src: url('./NF-Mono.ttf') format('truetype');
-}
-
+@import url(./_nf.css);
 
 /*
   iconYouWantGoesHere = class from cheatsheet
@@ -44,16 +40,3 @@
   </span>
 
 */
-.icon i[class^="nf-"] {
-  all: unset;
-  display: inline-flex;
-  font-family: "NF icons";
-  font-style: normal;
-  font-weight: 400;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  transition: all 0.15s ease-in-out;
-}
