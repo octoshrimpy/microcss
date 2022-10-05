@@ -5,6 +5,13 @@
   font-style:normal ;
 }
 
+.icon {
+  aspect-ratio: 1 / 1;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 i[class^="nf-"] {
   font-family: "NF icons";
