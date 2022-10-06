@@ -38,6 +38,9 @@
 a {
   color: var(--primary);
 }
+a:hover {
+  color: var(--primary-hover);
+}
 
 /* Nerd Font */
 /* nerdfont.com */
