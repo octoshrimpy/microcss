@@ -24,3 +24,44 @@ _Expanding upon the [ideals](https://picocss.com/#:~:text=graceful%C2%A0and%C2%A
 ```
 
 It will import pico, open-props, and everything else you need!
+
+---
+
+## Moar Information
+
+To optimize your styling and render cycles, consider using preload/prefetch for your css. more info on [this great post by DigitalOcean](https://www.digitalocean.com/community/tutorials/html-preload-prefetch)
+
+Putting it all together:
+
+```css
+/* your main css file */
+
+
+/* microcss
+ * https://octoshrimpy.github.io/microcss */
+ 
+@import 'https://octoshrimpy.github.io/microcss/micro.css';
+@import "https://octoshrimpy.github.io/microcss/nf.css";
+
+
+/* your code goes down here */
+
+```
+
+```html
+<!-- within the <head> of your main HTML file where you import styles -->
+
+<link
+  rel="preload"
+  as="style"
+  onload="this.rel = 'stylesheet'"
+  href='link/to/your/style.css'>
+
+<!-- load even if javascript is disabled -->
+<noscript>
+  <link
+    rel="stylesheet"
+    href='link/to/your/style.css'>
+</noscript>
+
+```
