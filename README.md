@@ -6,6 +6,7 @@ _Expanding upon the [ideals](https://picocss.com/#:~:text=graceful%C2%A0and%C2%A
 
 * [open-props](https://open-props.style) for quick variables
 * [open-color](https://yeun.github.io/open-color/) for nice colors and custom themes
+* [colar](https://github.com/fchristant/colar) as a better balanced alternative to open-color
 * [micro](https://github.com/octoshrimpy/microcss/blob/main/_micro.scss): my own personal overrides to pico and open-props, with sane defaults and batteries included
   * [elevation shadows](https://material.io/design/environment/elevation.html) from [Material Design Language](https://material.io/design/foundation-overview)
     * inset shadows
