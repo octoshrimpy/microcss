@@ -299,3 +299,50 @@
   </span>
 
 */
+
+/* pico-sensible */
+:root {
+  --form-spacing: calc(var(--spacing) / 2);
+  --form-input-max-length: 15;
+  --form-font-scale: 0.5;
+}
+
+/* max-width */
+input:not([type=checkbox],[type=radio]), 
+select, 
+textarea {
+  max-width: calc(var(--font-size) * var(--form-input-max-length));
+}
+
+/* spacing between elements */
+form > * {
+  font-size: var(--font-size);
+  margin-left: var(--form-spacing);
+  margin-right: var(--form-spacing);
+}
+form {
+  margin-left: calc(var(--form-spacing) * -1);
+  margin-right: calc(var(--form-spacing) * -1);
+}
+
+
+@media (min-width: 576px) {
+  form {
+    --font-size: 17px;
+  }
+}
+@media (min-width: 768px) {
+  form {
+    --font-size: 17px;
+  }
+}
+@media (min-width: 992px) {
+  form {
+    --font-size: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  form {
+    --font-size: 18px;
+  }
+}
