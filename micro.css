@@ -1,10 +1,12 @@
 /* https://open-props.style */
 /* https://yeun.github.io/open-color */
-@import "https://unpkg.com/open-props";
+/* @import "https://unpkg.com/open-props"; */
+@import "https://cdn.jsdelivr.net/npm/open-props/open-props.min.css";
 
 
 /* https://picocss.com/docs */
-@import "https://unpkg.com/@picocss/pico";
+/* @import "https://unpkg.com/@picocss/pico"; */
+@import "https://cdn.jsdelivr.net/npm/@picocss/pico";
 
 
 /* MDL shadows */
