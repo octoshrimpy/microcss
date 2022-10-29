@@ -18,10 +18,25 @@ _Expanding upon the [ideals](https://picocss.com/#:~:text=graceful%C2%A0and%C2%A
   * inverse text color finder, from [Bulma.io](https://bulma.io/documentation/) (SCSS only). ([source](https://github.com/jgthms/bulma/blob/master/sass/utilities/functions.sass))
   
   
-  Just include the [main file](./micro.css) as well as nerdfonts into your project with:
+  Just include the [main file](./micro.css) into your project with:
 ```css 
 @import 'https://octoshrimpy.github.io/microcss/micro.css';
-@import "https://octoshrimpy.github.io/microcss/nf.css";
+
+/* or */
+
+@import 'https://cdn.jsdelivr.net/gh/octoshrimpy/microcss@main/nerdfonts.css';
+```
+
+or include it in the `<head>` of your main `.html` file
+
+```html
+<link rel="stylesheet" href="https://octoshrimpy.github.io/microcss/micro.css">
+
+<!-- or -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/octoshrimpy/microcss@main/nerdfonts.css">
+
+
 ```
 
 It will import pico, open-props, and everything else you need!
