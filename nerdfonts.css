@@ -1,0 +1,50 @@
+/* Nerd Font */
+/* nerdfont.com */
+/* nerdfont.com/cheatsheet */
+@import "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@master/css/nerd-fonts-generated.min.css";
+
+
+
+/*
+  iconYouWantGoesHere = class from cheatsheet linked above
+
+  <span class='icon'>
+    <i class='nf-iconYouWantGoesHere'>
+  </span>
+
+*/
+
+
+
+
+@font-face {
+  font-family: 'NerdFontsSymbols Nerd Font';
+  /* @TODO you need to adjust the path to the font: */
+  src: url('https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@master/patched-fonts/NerdFontsSymbolsOnly/complete/Symbols-2048-em%20Nerd%20Font%20Complete%20Mono%20Windows%20Compatible.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  aspect-ratio: 1 / 1;
+/*   padding: 0.25rem; */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: currentColor;
+}
+
+i[class^="nf-"] {
+  font-family: 'NerdFontsSymbols Nerd Font';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering (from devicons, et al) */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: all 0.15s ease-in-out;
+  color: currentColor;
+}
