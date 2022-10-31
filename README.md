@@ -1,4 +1,4 @@
-# MicroCSS
+# [MicroCSS](https://github.com/octoshrimpy/microcss)
 
 _Expanding upon the [ideals](https://picocss.com/#:~:text=graceful%C2%A0and%C2%A0simple,-!) of [picoCSS](https://picocss.com), with icons and helper variables_
 
@@ -25,7 +25,7 @@ _Expanding upon the [ideals](https://picocss.com/#:~:text=graceful%C2%A0and%C2%A
 
 /* or */
 
-@import 'https://cdn.jsdelivr.net/gh/octoshrimpy/microcss@main/nerdfonts.css';
+@import 'https://cdn.jsdelivr.net/gh/octoshrimpy/microcss@main/micro.css';
 ```
 
 or include it in the `<head>` of your main `.html` file
@@ -35,7 +35,7 @@ or include it in the `<head>` of your main `.html` file
 
 <!-- or -->
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/octoshrimpy/microcss@main/nerdfonts.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/octoshrimpy/microcss@main/micro.css">
 
 
 ```
