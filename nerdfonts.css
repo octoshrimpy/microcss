@@ -48,3 +48,9 @@
   transition: all 0.15s ease-in-out;
   color: currentColor;
 }
+
+a[class^="nf-"] {
+ text-decoration: none;
+ color: var(--color);
+ cursor: pointer;
+}
