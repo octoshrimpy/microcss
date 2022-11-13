@@ -34,7 +34,7 @@
   color: currentColor;
 }
 
-i[class^="nf-"] {
+:is(i, a)[class^="nf-"] {
   font-family: 'NerdFontsSymbols Nerd Font';
   speak: none;
   font-style: normal;
