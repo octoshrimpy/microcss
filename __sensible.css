@@ -7,9 +7,10 @@
 }
 
 /* max-width */
-input:not([type=checkbox],[type=radio]), 
-select, 
-textarea {
+form.__sensible input:not([type=checkbox],
+form.__sensible [type=radio]), 
+form.__sensible select, 
+form.__sensible textarea {
   max-width: calc(var(--font-size) * var(--form-input-max-length));
 }
 
