@@ -3,7 +3,7 @@
 :root {
   --shadow-none        : inset 0 0 0 rgba(0,0,0,0),          inset 0 0 0 rgba(0,0,0,0),          0 0 0 rgba(0,0,0,0),          0 0 0 rgba(0,0,0,0);
   
-  --shadow-border      : inset 0 0 0 rgba(10,10,10,.1),      0 0 0 0 rgba(10,10,10,.1),          0 2px 3px rgba(10,10,10,.1),  0 0 0 1px rgba(10,10,10,.1);
+  --shadow-border      : inset 0 0 0 rgba(10,10,10,.1),      inset 0 0 0 0 rgba(10,10,10,.1),    0 2px 3px rgba(10,10,10,.1),  0 0 0 1px rgba(10,10,10,.1);
   --shadow-1           : inset 0 0 0 rgba(0,0,0,0.12),       inset 0 0 0 rgba(0,0,0,0.24),       0 1px 3px rgba(0,0,0,0.12),   0 1px 2px rgba(0,0,0,0.24);
   --shadow-2           : inset 0 0 0 rgba(0,0,0,0.16),       inset 0 0 0 rgba(0,0,0,0.23),       0 3px 6px rgba(0,0,0,0.16),   0 3px 6px rgba(0,0,0,0.23);
   --shadow-3           : inset 0 0 0 rgba(0,0,0,0.19),       inset 0 0 0 rgba(0,0,0,0.23),       0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
