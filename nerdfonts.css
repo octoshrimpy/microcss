@@ -1,7 +1,7 @@
 /* Nerd Font */
 /* nerdfont.com */
 /* nerdfont.com/cheatsheet */
-@import "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@master/css/nerd-fonts-generated.min.css";
+@import "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@2.3.3/css/nerd-fonts-generated.min.css";
 
 
 
@@ -20,7 +20,7 @@
 @font-face {
   font-family: 'NerdFontsSymbols Nerd Font';
   /* @TODO you need to adjust the path to the font: */
-  src: url('https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@master/patched-fonts/NerdFontsSymbolsOnly/complete/Symbols-2048-em%20Nerd%20Font%20Complete%20Mono%20Windows%20Compatible.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@2.3.3/patched-fonts/NerdFontsSymbolsOnly/complete/Symbols-2048-em%20Nerd%20Font%20Complete%20Mono%20Windows%20Compatible.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
